@@ -14,14 +14,15 @@ html
   margin: 0
   padding: 0
   height: 100%
-  border-top: 2px solid $color-text
+  overflow-y: overlay
+  // border-top: 2px solid $color-text
   -webkit-text-size-adjust: 100%
   -ms-text-size-adjust: 100%
 
 body
   margin: 0
   height: 100%
-  background-color: $color-background
+  background-color: var(--bg-color)
   color: $color-text
   font-display: swap // @stylint ignore
   font-weight: 400
@@ -31,9 +32,22 @@ body
   text-rendering: geometricPrecision
   flex: 1
 
+  --bg-color: #000
+
   antialias()
 
   @extend $base-style
+
+  &::-webkit-scrollbar 
+    width: 12px;
+
+  &::-webkit-scrollbar-track 
+    background: var(--bg-color)
+
+  &::-webkit-scrollbar-thumb 
+    background-color: $color-text;    
+    border-radius: 20px;       
+    border: 4px solid var(--bg-color); 
 
 .content
   position: relative

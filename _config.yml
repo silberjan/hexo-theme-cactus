@@ -16,20 +16,19 @@ direction: ltr
 nav:
   home: /
   about: /about/
-  articles: /archives/
-  projects: projects_url
-
+  # articles: /archives/
+  # projects: projects_url
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  github: https://github.com/silberjan
+  twitter: https://twitter.com/silberjan
+  linkedin: https://www.linkedin.com/in/jan-silbersiepe
+  gitlab: https://gitlab.com/silberjan
+  # mail: mailto:name@email.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -62,7 +61,7 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
+  start_year: 2021
   end_year:
 
 ##############################################################################
@@ -77,13 +76,13 @@ copyright:
 #   - url: where the logo can be found
 #   - gravatar: whether to use your Gravatar as the logo
 #   - grayout: whether to enable a hover effect on the logo
-logo:
-  enabled: true
-  width: 50
-  height: 50
-  url: /images/logo.png
-  gravatar: false
-  grayout: true
+# logo:
+#   enabled: true
+#   width: 50
+#   height: 50
+#   url: /images/logo.png
+#   gravatar: false
+#   grayout: true
 
 # Customize the favicons.
 # Cactus supports a limited set of the three most important icons:
@@ -99,10 +98,10 @@ favicon:
     url: /images/favicon.ico
     gravatar: false
   android:
-    url: /images/favicon-192x192.png
+    url: /images/favicon-32x32.png
     gravatar: false
   apple:
-    url: /images/apple-touch-icon.png
+    url: /images/favicon-32x32.png
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
@@ -117,7 +116,6 @@ colorscheme: dark
 # Maximal width of the page in rem units.
 page_width: 48
 
-
 ##############################################################################
 # Miscellaneous
 ##############################################################################
@@ -131,7 +129,6 @@ open_graph:
   fb_admins:
   twitter_id:
   google_plus:
-
 
 ##############################################################################
 # Plugins
