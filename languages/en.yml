@@ -8,6 +8,10 @@ nav:
   search: Search
   imprint: Imprint
 
+icons:
+  menu: Menu
+  top: Top
+
 footer:
   copyright: Copyright
 
