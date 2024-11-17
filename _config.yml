@@ -25,10 +25,8 @@ nav:
 # only 'mail' is an exception.
 social_links:
   github: https://github.com/silberjan
-  twitter: https://twitter.com/silberjan
   linkedin: https://www.linkedin.com/in/jan-silbersiepe
   gitlab: https://gitlab.com/silberjan
-  # mail: mailto:name@email.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
